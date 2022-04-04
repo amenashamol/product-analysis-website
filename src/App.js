@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
@@ -19,7 +19,7 @@ function App() {
       <Route path="/dashboard" element={<Dashboard></Dashboard>}/>
       <Route path="/blogs" element={<Blogs></Blogs>}/>
 
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
         <Route path='*' element={<NotFound></NotFound>}></Route> 
       </Routes>
       
