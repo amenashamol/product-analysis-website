@@ -6,13 +6,15 @@
     width:500px;
     padding-left: 20px;
 }
-h2{
+
+
+.color{
     color: rgb(241, 79, 15);
 }
 
 .home p{
     width:500px;
-    padding-left: 20px;
+    
 }
 
 .Customer-Reviews h1{
@@ -25,7 +27,9 @@ h2{
     width: 500px;
 }
 button{
+    margin-left: 520px;
     margin-bottom: 15px;
+    
     background-color: rgb(165, 108, 219);
     border-radius: 5px;
     padding: 10px 25px;
