@@ -33,7 +33,8 @@ const Home = () => {
                             key={product.id}
                                 product={product}
                             
-                                ></CustomerReview >)
+                                ></CustomerReview >
+                         )
                         }
                         
                     </div>
