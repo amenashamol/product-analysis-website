@@ -1,0 +1,16 @@
+.chart{
+  display: flex;
+  justify-content:space-around;
+  
+  margin-top: 20px;
+}
+
+.line{
+    background-color: rgb(142, 241, 241);
+   
+}
+
+.pie{
+    margin-top: auto;
+   background-color: beige; 
+}

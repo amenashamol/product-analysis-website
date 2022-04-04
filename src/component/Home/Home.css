@@ -2,8 +2,25 @@
     display: flex;
     justify-content: space-around;
 }
+.purchage{
+    width:500px;
+    padding-left: 20px;
+}
+h2{
+    color: rgb(241, 79, 15);
+}
 
-.pic{
-    
-    width: 40%;
+.home p{
+    width:500px;
+    padding-left: 20px;
+}
+
+.Customer-Reviews h1{
+    text-align: center;
+}
+
+.pic img{
+    margin-top: 30px;
+    height: 400px;
+    width: 500px;
 }
