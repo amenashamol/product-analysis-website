@@ -1,9 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
+import useProducts from '../../hooks/useProducts';
+import Product from '../Product/Product';
 import logo from '../../images/Baag.png';
 import './Home.css'
+import CustomerReview from '../Customer-review/CustomerReview';
 
 const Home = () => {
+    const [products, setProducts] = useProducts([]);
+    const [item, setItem] = useState([]);
+
     return (
         <div>
             <div className='home'>
@@ -18,8 +24,21 @@ const Home = () => {
                 <img src={logo} alt=""></img>
                 </div>
             </div>
-            <div className='Customer-Reviews'>
-                <h1>Customer Reviews(3)</h1>
+                <div className='Customer-Reviews'>
+                    <h1>Customer Reviews(3)</h1>
+                    <div className='review-container'>
+                        <div className="products-container">
+                        {
+                         products.length>3 && products.slice(0,3).map(product=><CustomerReview 
+                            key={product.id}
+                                product={product}
+                            
+                                ></CustomerReview >)
+                        }
+                        
+                    </div>
+                </div>
+
             </div> 
 
             <Link to='/reviews'>

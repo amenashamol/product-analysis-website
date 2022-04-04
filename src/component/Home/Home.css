@@ -24,3 +24,10 @@ h2{
     height: 400px;
     width: 500px;
 }
+button{
+    margin-bottom: 15px;
+    background-color: rgb(165, 108, 219);
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
